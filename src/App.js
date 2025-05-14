@@ -12,7 +12,7 @@ function App() {
 
   return (
       <Routes>
-        <Route path="/" element={<SignIn/>} />
+        <Route path="/react-ems" element={<SignIn/>} />
         <Route path="/register" element={<SignUp/>} />
         <Route path="/admin" element={<Admin/>} />
         <Route path="/employee" element={<Employee/>} />
